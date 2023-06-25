@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E478C802A482BAF0028798B /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E478C7F2A482BAF0028798B /* Hotel.swift */; };
+		3E478C822A482DFC0028798B /* HotelRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E478C812A482DFC0028798B /* HotelRow.swift */; };
 		3E815F4D2A480D210013BEAE /* Slicing_CozyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E815F4C2A480D210013BEAE /* Slicing_CozyApp.swift */; };
 		3E815F4F2A480D210013BEAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E815F4E2A480D210013BEAE /* ContentView.swift */; };
 		3E815F512A480D220013BEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E815F502A480D220013BEAE /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E478C7F2A482BAF0028798B /* Hotel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		3E478C812A482DFC0028798B /* HotelRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelRow.swift; sourceTree = "<group>"; };
 		3E815F492A480D210013BEAE /* Slicing Cozy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Slicing Cozy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E815F4C2A480D210013BEAE /* Slicing_CozyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slicing_CozyApp.swift; sourceTree = "<group>"; };
 		3E815F4E2A480D210013BEAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				3E815F4C2A480D210013BEAE /* Slicing_CozyApp.swift */,
 				3E815F4E2A480D210013BEAE /* ContentView.swift */,
+				3E478C812A482DFC0028798B /* HotelRow.swift */,
+				3E478C7F2A482BAF0028798B /* Hotel.swift */,
 				3E815F502A480D220013BEAE /* Assets.xcassets */,
 				3E815F522A480D220013BEAE /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E478C802A482BAF0028798B /* Hotel.swift in Sources */,
+				3E478C822A482DFC0028798B /* HotelRow.swift in Sources */,
 				3E815F4F2A480D210013BEAE /* ContentView.swift in Sources */,
 				3E815F4D2A480D210013BEAE /* Slicing_CozyApp.swift in Sources */,
 			);
