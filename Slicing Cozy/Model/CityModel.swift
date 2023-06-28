@@ -17,7 +17,7 @@ struct CityList {
     static let PopularCities = [
         City(name: "Bandung", image: "bandung"),
         City(name: "Surabaya", image: "surabaya"),
-        City(name: "Palembang", image: "palembang")
-        
+        City(name: "Palembang", image: "palembang"),
+        City(name: "Jakarta", image: "jakarta")
     ]
 }

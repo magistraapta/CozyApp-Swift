@@ -1,11 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "surabaya.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "surabaya.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
