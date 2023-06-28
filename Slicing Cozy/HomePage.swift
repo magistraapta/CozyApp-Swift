@@ -9,6 +9,7 @@ import SwiftUI
 
 struct HomePage: View {
     var cities: [City] = CityList.PopularCities
+    var hotels: [Hotel] = HotelList.hotelRecomendation
     var body: some View {
         VStack(alignment: .leading,spacing: 30){
             VStack(alignment: .leading){
@@ -41,13 +42,26 @@ struct HomePage: View {
                     }
                 }
             }
-            VStack(alignment: .leading){
+            VStack(alignment: .leading, spacing: 30){
                 Text("Recomended Space")
                     .font(.system(size: 16))
-                ScrollView{
-                    
+                ForEach(hotels) { hotel in
+                    HStack(spacing: 30){
+                        Image(hotel.image)
+                        VStack(alignment:.leading, spacing: 16){
+                            VStack(alignment:.leading){
+                                Text(hotel.name)
+                                    .fontWeight(.medium)
+                                    .font(.system(size:18))
+                                Text("$\(hotel.price) / month")
+                                    .font(.system(size:16))
+                            }
+                            Text(hotel.location)
+                                .foregroundColor(.secondary)
+                                .font(.system(size:14))
+                        }
+                    }
                 }
-                
             }
         }
         .padding()

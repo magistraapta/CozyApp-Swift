@@ -11,6 +11,7 @@
 		3E815F4F2A480D210013BEAE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E815F4E2A480D210013BEAE /* ContentView.swift */; };
 		3E815F512A480D220013BEAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E815F502A480D220013BEAE /* Assets.xcassets */; };
 		3E815F542A480D220013BEAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E815F532A480D220013BEAE /* Preview Assets.xcassets */; };
+		3EDF7ACA2A4C83B900FFA882 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDF7AC92A4C83B900FFA882 /* HotelModel.swift */; };
 		3EFCA7212A4C1DA500B6C65D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCA7202A4C1DA500B6C65D /* HomePage.swift */; };
 		3EFCA7242A4C227800B6C65D /* CityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFCA7232A4C227800B6C65D /* CityModel.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		3E815F4E2A480D210013BEAE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3E815F502A480D220013BEAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E815F532A480D220013BEAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3EDF7AC92A4C83B900FFA882 /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
 		3EFCA7202A4C1DA500B6C65D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		3EFCA7232A4C227800B6C65D /* CityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				3EFCA7232A4C227800B6C65D /* CityModel.swift */,
+				3EDF7AC92A4C83B900FFA882 /* HotelModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EDF7ACA2A4C83B900FFA882 /* HotelModel.swift in Sources */,
 				3EFCA7242A4C227800B6C65D /* CityModel.swift in Sources */,
 				3E815F4F2A480D210013BEAE /* ContentView.swift in Sources */,
 				3EFCA7212A4C1DA500B6C65D /* HomePage.swift in Sources */,
